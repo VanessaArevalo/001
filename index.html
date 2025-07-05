@@ -3,20 +3,37 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mi Página Temática</title>
-  <link rel="stylesheet" href="style.css"/>
+  <title>Pantalla Retro Animada</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Bienvenidos a mi sitio</h1>
-  </header>
+  <!-- Video de fondo -->
+  <video autoplay muted loop id="video-fondo">
+    <source src="videos/fondo.mp4" type="video/mp4" />
+    Tu navegador no soporta video HTML5.
+  </video>
 
-  <main>
-    <section>
-      <h2>Tema del video: [describir aquí]</h2>
-      <p>Este sitio trata sobre...</p>
-    </section>
-  </main>
+  <!-- Carrusel de imágenes -->
+  <div class="carrusel">
+  <div class="carrusel-track">
+    <a href="detalles-linjes/detalle-HN.html"><img src="imagenes/HN.png" /></a>
+    <a href="detalles-linjes/detalle-LA.html"><img src="imagenes/LA.png" /></a>
+    <a href="detalles-linjes/detalle-LI.html"><img src="imagenes/LI.png" /></a>
+    <a href="detalles-linjes/detalle-LO.html"><img src="imagenes/LO.png" /></a>
+    <a href="detalles-linjes/detalle-LP.html"><img src="imagenes/LP.png" /></a>
+    <a href="detalles-linjes/detalle-MdlA.html"><img src="imagenes/MdlA.png" /></a>
+    <a href="detalles-linjes/detalle-TG.html"><img src="imagenes/TG.png" /></a>
+
+    <!-- Repetición para animación infinita -->
+    <a href="detalles-linjes/detalle-HN.html"><img src="imagenes/HN.png" /></a>
+    <a href="detalles-linjes/detalle-LA.html"><img src="imagenes/LA.png" /></a>
+    <a href="detalles-linjes/detalle-LI.html"><img src="imagenes/LI.png" /></a>
+    <a href="detalles-linjes/detalle-LO.html"><img src="imagenes/LO.png" /></a>
+    <a href="detalles-linjes/detalle-LP.html"><img src="imagenes/LP.png" /></a>
+    <a href="detalles-linjes/detalle-MdlA.html"><img src="imagenes/MdlA.png" /></a>
+    <a href="detalles-linjes/detalle-TG.html"><img src="imagenes/TG.png" /></a>
+  </div>
+</div>
 
   <script src="script.js"></script>
 </body>
